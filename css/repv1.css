@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1000px) {
+    #page{
+        width: 40vw;
+        height: auto;
+    }
+  }
+@media only screen and (max-width: 870px) {
+    #page{
+        width: 60vw;
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #page{
+        width: 80vw;
+        height: auto;
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    #page{
+        width: 90vw;
+        height: auto;
+    }
+  }

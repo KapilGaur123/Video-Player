@@ -1,0 +1,44 @@
+/* cover page  */
+@media(max-width:1025px){
+    #profile_box_container {
+        width: 40%;
+    }
+}
+@media(max-width:769px){
+    #profile_box_container {
+        width: 54%;
+    }
+}
+@media(max-width:426px){
+    #profile_box_container {
+        width: 85vw;
+    }
+    #profile_pic {
+        left: 110px;
+    }
+    #profile_upload {
+        left: 108px;
+    }
+}
+@media(max-width:376px){
+    #profile_box_container {
+        width: 80%;
+    }
+    #profile_pic {
+        left: 78px;
+    }
+    #profile_upload {
+        left: 78px;
+    }
+}
+@media(max-width:321px){
+    #profile_box_container {
+        width: 90%;
+    }
+    #profile_pic {
+        left: 70px;
+    }
+    #profile_upload {
+        left: 70px;
+    }
+}

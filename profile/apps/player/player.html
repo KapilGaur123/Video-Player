@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>player</title>
+    <link rel="stylesheet" href="css/player.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="http://stpamitkumar.000webhostapp.com/fa_fa_icon_5_pro/icon.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="left">
+        <video id="video_player">
+            <source id="video_src" src="https://cdn.pixabay.com/video/2024/03/28/205923_tiny.mp4"></source>
+        </video>
+        <div id="progress_box">
+            <div id="progress_bar"></div>
+        </div>
+        <div id="control">
+            <div id="timing">
+                <p id="v_timing">00:00 / 00:00</p>
+            </div>
+            <div id="play_tools" itemid="">
+                <i class="fa-solid fa-backward" id="left_btn"></i>
+                <i class="fa-solid fa-circle-play" id="play_btn"></i>
+                <i class="fa-solid fa-forward" id="right_btn"></i>
+            </div>
+            <div id="other_tools">
+                <div id="volume_box">
+                    <input type="range" min="0" max="1" step="0.01" id="volume_control" style="display: none;">
+                    <i class="fa-solid fa-volume-high" id="volume"></i>
+                </div>
+                <div id="speed_box">
+                    <input type="range" min="0" max="2" step="0.25" id="speed_control" style="display: none;">
+                    <i class="fa-solid fa-gauge-high" id="speed"></i>
+                </div>
+                <i class="fa-solid fa-expand" id="full_screen"></i>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <div id="top">
+            <h3>Playlist</h3>
+            <input type="search" placeholder="Search Video..." id="search">
+            <i class="fa-solid fa-circle-plus" id="open_video_box_btn"></i>
+            <div id="open_video_box">
+                <h2>Add Video</h2>
+                <form>
+                    <input type="text" placeholder="Enter Video Name..." id="video_name">
+                    <input type="text" placeholder="Enter Video URL..." id="video_link">
+                    <button type="submit" id="add_video_btn">Add</button>
+                </form>
+            </div>
+        </div>
+        <div id="bottom">
+            
+        </div>
+    </div>
+
+    <script src="js/player.js"></script>
+</body>
+</html>

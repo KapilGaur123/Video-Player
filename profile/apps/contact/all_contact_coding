@@ -1,0 +1,11 @@
+<!-- Dynamic coding structure -->
+ <!-- This is only structure it is created in js -->
+<div id="contact">
+    <p><i class="fas fa-user"></i> Kapil Gaur</p>
+    <div id="tool">
+        <i class="fas fa-edit"></i>
+        <i class="fas fa-trash"></i>
+    </div>
+    <hr color="yellow" width="75%" size="1px">
+    <p><i class="fas fa-mobile-alt"></i> 8813056506</p>
+</div>

@@ -1,0 +1,134 @@
+/* Responsive for mail profile page */
+@media only screen and (max-width: 1001px) {
+    #profile_header{
+        width: 100%;
+        height: 150px;
+    }
+    #profile_picture{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+  }
+
+@media only screen and (max-width: 769px) {
+    #app{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    #contact,#player,#logout{
+        width: 60vw;
+        height: 34vh;
+        /* background-color: white;
+        margin: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+    }
+    #contact:hover,#player:hover,#logout:hover{
+        width: 200px;
+        height: 170px;
+        box-shadow: 0px 0px 15px #ccc;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    #profile_header{
+        width: 100%;
+        height: 100px;
+    }
+    #profile_picture{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #profile_username{
+        margin-top: 80px;
+    }
+    #app{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    #contact,#player,#logout{
+        width: 180px;
+        height: 150px;
+        background-color: white;
+        margin: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contact:hover,#player:hover,#logout:hover{
+        width: 200px;
+        height: 170px;
+        box-shadow: 0px 0px 15px #ccc;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    #contact i ,#player i, #logout i{
+        font-size: 45px;
+        color: orange;
+    }
+    #contact p, #player p, #logout p{
+        font-size: 25px;
+        color: yellow;
+        margin-top: 7px;
+        font-family: "Ubuntu", sans-serif;
+    }
+    /* End working on mail_profile_page */
+    /* Start working on footer part */
+    #profile_footer{
+        width: 100%;
+        height: 70px;
+        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #profile_footer p{
+        font-size: 16px;
+    }
+  }
+  @media only screen and (max-width: 210px) {
+    #profile_username{
+        font-size: 20px;
+    }
+    #app{
+        margin-top: 13px;
+    }
+    #contact,#player,#logout{
+        width: 90vw;
+        height: 120px;
+    }
+    #contact:hover,#player:hover,#logout:hover{
+        width: 70vw;
+        height: 100px;
+    }
+    #contact i ,#player i, #logout i{
+        font-size: 30px;
+    }
+    #contact p, #player p, #logout p{
+        font-size: 25px;
+    }
+    #profile_footer p{
+        font-size: 12px;
+    }
+  }

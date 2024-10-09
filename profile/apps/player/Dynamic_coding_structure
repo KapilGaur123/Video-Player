@@ -1,0 +1,4 @@
+<div id="main_video_box">
+    <p id="playlist_video_name">Video 1</p>
+    <button type="button" id="video_play_btn">Play</button><button type="button" id="video_delete_btn">Delete</button>
+</div>

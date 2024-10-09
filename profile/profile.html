@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/responsive1.css">
+    <link rel="stylesheet" href="css/responsive2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="page_cover">
+        <div id="profile_box_container">
+            <div id="profile_box">
+                    <div id="profile_pic">
+                        <i class="fas fa-user" id="profile_icon"></i>
+                    </div>
+                    <!-- accept attribute open your gallery section and you can select photo -->
+                    <input type="file" accept="image/*" id="profile_upload">
+            </div>
+            <p>Upload profile pic</p>
+            <h1 id="profile_name">Kapil Jogi</h1>
+            <button id="next">Next <i class="fas fa-angle-double-right"></i></button>
+        </div>
+    </div>
+
+    <div id="main_profile_page">
+        <div id="profile_header">
+            <div id="profile_picture"></div>
+        </div>
+        <h1 id="profile_username"></h1>
+        <div id="app">
+            
+            <a href="apps/player/player.html">
+                <div id="player">
+                    <i class="fas fa-play-circle"></i>
+                    <p>player</p>
+                </div>
+            </a>
+
+            <a href="apps/contact/contact.html">
+                <div id="contact">
+                    <i class="fas fa-address-book"></i>
+                    <p>Contact</p>
+                </div>
+            </a>
+
+            <div id="logout">
+                <i class="fas fa-sign-out-alt"></i>
+                <p id="logout_text">Log Out</p>
+            </div>
+        </div>
+        <div id="profile_footer">
+            <p>Developed By : Kapil Gaur</p>
+        </div>
+    </div>
+    <script src="js/profile.js"></script>
+    <script src="js/profile2.js"></script>
+</body>
+</html>
